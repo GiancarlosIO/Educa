@@ -344,3 +344,55 @@ background: rgba(255,190,42,0.2);
 .container-material-educa .row.container-items-educa a:hover .title-item-material-educa h3 {
   font-size: 1.6em;
 }
+.container-testvocacional {
+  color: #fff;
+  height: 100vh;
+  text-shadow: 2px 2px #000;
+  position: relative;
+}
+.container-testvocacional .row.container-items-testvocacional {
+  height: 93%;
+  position: absolute;
+  top: 7%;
+  background: rgba(28,224,232,0.6);
+  background: rgba(0,0,0,0.0);
+  margin: 0px;
+}
+.container-testvocacional .row.container-items-testvocacional .title-item-testvocacional .content-title{
+  text-align: justify;
+  font-size: 17px;
+}
+.container-testvocacional .row.container-items-testvocacional .title-item-testvocacional .container-imgtest{
+    padding: 16px;
+    height: 14em;
+    border-radius: 50%;
+}
+.container-testvocacional .row.container-items-testvocacional .title-item-testvocacional .container-imgtest img.imgtest{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.container-testvocacional .row.container-items-testvocacional .containerbutton a {
+  display: inline-block;
+  text-shadow: none;
+  padding: 1em;
+  background: #1D97ED;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #000;
+  transition: all 0.4s ease;
+  border: none;
+}
+.container-testvocacional .row.container-items-testvocacional .containerbutton a:hover {
+  background: #5BA9FF;
+  box-shadow: 2px 2px 2px rgba(20,160,166,0.5);
+  border: 1px solid #5BA9FF;
+}
+.container-testvocacional .row.container-items-testvocacional .item-testvocacional{
+  font-size: 18px;
+  background: rgba(29,149,237,0.9);
+  color: #000;
+  font-family: arial;
+  text-shadow: none;
+}
