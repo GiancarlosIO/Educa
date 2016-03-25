@@ -97,6 +97,7 @@ span.logo-font{
 }
 .container-bg .row .item-info:hover {
   background: rgba(164,181,33,0.3);
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.6);
 }
 .container-bg .row .item-info h1 {
   text-align: center;
@@ -150,8 +151,39 @@ span.logo-font{
   text-shadow: #000 2px 2px 2px;
   position: relative;
 }
-.container-bg .row #buttonContainer {
-  height: 60px;
+.container-bg .row .buttons-container {
+  height: 24vh;
+  padding: 0px;
+}
+.container-bg .row .buttons-container #buttonEnter {
+  color: rgba(0,0,0,0.6);
+  margin-top: 3vh;
+  width: 10em;
+  height: 2em;
+  background: rgba(227,175,42,.5);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 25px;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.7);
+  transition: all 0.5s ease;
+}
+.container-bg .row .buttons-container #buttonEnter:hover {
+  background: #E3AF2A;
+  text-shadow: 1px 3px #000;
+  color: #fff;
+  box-shadow: 4px 4px 3px rgba(0,0,0,0.7);
+}
+.container-bg .row .buttons-container #buttonSlide {
+color: #FFFF2A;
+padding: 0px;
+width: 100%;
+height: 50px;
+margin-top: 6vh;
+font-size: 30px;
+cursor: pointer;
+border: none;
+background: rgba(255,190,42,0.2);
 }
 .container-how-work {
   height: 100vh;
@@ -261,4 +293,54 @@ span.logo-font{
   border: 4px solid #0047BD;
   background: rgba(0,71,189,0.5);
   transform:rotate(360deg);
+}
+.container-material-educa {
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  height: 100vh;
+  position: relative;
+}
+.container-material-educa .row.container-items-educa {
+  background: rgba(244,106,30,0.4);
+  margin: 0px;
+  position: absolute;
+  top: 3.1em;
+  height: 93%;
+}
+.container-material-educa .row.container-items-educa .content-items {
+  height: 74%;
+}
+.container-material-educa .row.container-items-educa a{
+  text-shadow: none;
+  text-decoration: none;
+  border: 2px solid #000;
+  color: #000;
+  border-radius: 5px;
+  background: rgba(255,255,255,0.6);
+}
+.container-material-educa .row.container-items-educa a:hover {
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  border-left: 15px solid #CABE03;
+}
+.container-material-educa .row.container-items-educa a span i {
+  font-size: 2.5em;
+  transition: all 0.5s ease;
+}
+.container-material-educa .row.container-items-educa a:hover span i {
+  font-size: 5em;
+  color: #FFF004;
+}
+.container-material-educa .row.container-items-educa a .title-item-material-educa h2 {
+  transition: all 0.5s ease;
+}
+.container-material-educa .row.container-items-educa a:hover .title-item-material-educa h2{
+  font-size: 1em;
+  color: #CABE03;
+}
+.container-material-educa .row.container-items-educa a .title-item-material-educa h3 {
+  transition: all 0.5s ease;
+}
+.container-material-educa .row.container-items-educa a:hover .title-item-material-educa h3 {
+  font-size: 1.6em;
 }
