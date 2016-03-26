@@ -1,5 +1,5 @@
 $(document).ready( function() {
   $('.menujs').smint({
-  	'scrollSpeed' : 1000
+  	'scrollSpeed' : 2000
   });
 });
