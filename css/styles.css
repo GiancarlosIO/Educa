@@ -557,3 +557,33 @@ footer.row .container-footer {
   color: #fff;
   background: rgba(255,83,48, 0.1);
 }
+
+/* RESPONSIVE */
+
+/*Menu*/
+@media only screen and (max-width: 600px) {
+  #menu {
+    height: auto;
+  }
+  #menu .menu-computer {
+    display: none;
+  }
+  #menu .menu-mobile {
+    display: block;
+    z-index: 10000;
+    width: 100%;
+  }
+  #menu .menu-mobile .menu-mobile-bar {
+    display: none;
+    background: rgba(63,7,247,0.8);
+    width: 100%;
+  }
+  #menu .menu-mobile .menu-mobile-bar a {
+    border-radius: 5px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    text-shadow: none;
+    padding: 0.3em 0;
+  }
+
+}
