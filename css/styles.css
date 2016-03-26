@@ -112,7 +112,6 @@ span.logo-font{
   margin-bottom: 27px;
 }
 .container-bg .row .item-info span {
-
 }
 .container-bg .row .item-info p{
   font-size: 14px;
@@ -182,15 +181,15 @@ span.logo-font{
   box-shadow: 4px 4px 3px rgba(0,0,0,0.7);
 }
 .container-bg .row .buttons-container #buttonSlide {
-color: #FFFF2A;
-padding: 0px;
-width: 100%;
-height: 50px;
-margin-top: 6vh;
-font-size: 30px;
-cursor: pointer;
-border: none;
-background: rgba(255,190,42,0.2);
+  color: #FFFF2A;
+  padding: 0px;
+  width: 100%;
+  height: 50px;
+  margin-top: 6vh;
+  font-size: 30px;
+  cursor: pointer;
+  border: none;
+  background: rgba(255,190,42,0.2);
 }
 .container-how-work {
   height: 100vh;
@@ -754,8 +753,36 @@ footer.row .container-footer {
     transform: rotate(0deg);
     background: rgba(204,197,19,0.6);
   }
-
-
+  /*material-Educa*/
+  /*material-Educa*/
+  /*material-Educa*/
+  /*material-Educa*/
+  /*material-Educa*/
+  .container-material-educa {
+    height: 1000px;
+  }
+  .container-material-educa .row.container-items-educa {
+    background: rgba(244,106,30,0.4);
+    height: 100%;
+    top: 0px;
+  }
+  .container-material-educa .row.container-items-educa .content-items.row {
+    height: 74%;
+    margin: 0px;
+  }
+  .container-material-educa .row.container-items-educa a{
+    text-shadow: none;
+    text-decoration: none;
+    border: 0px;
+    border-bottom: 2px solid #fff;
+    color: #000;
+    border-radius: 0px;
+    background: rgba(204,19,57,0.4);
+  }
+  .container-material-educa .row.container-items-educa .content-items.row a span {
+    margin: 0;
+    line-height: 182px;
+  }
 }
 
 /*-----------------------------------------------------------------*/
@@ -844,5 +871,19 @@ footer.row .container-footer {
     padding: 5px;
     width: 100%;
     margin-left: 0%;
+  }
+  /*Material-Educa*/
+  /*Material-Educa*/
+  /*Material-Educa*/
+  /*Material-Educa*/
+  /*Material-Educa*/
+  .container-material-educa .row.container-items-educa a{
+    text-shadow: none;
+    text-decoration: none;
+    border: 0px;
+    border-bottom: 2px solid #fff;
+    color: #000;
+    border-radius: 0px;
+    background: rgba(105,91,107,0.4);
   }
 }
