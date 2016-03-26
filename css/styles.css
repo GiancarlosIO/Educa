@@ -23,6 +23,9 @@ span.logo-font{
   background-cover: cover;
   z-index: -1;
 }
+#menu .menu-mobile {
+  display: none;
+}
 #menu {
   margin: 0px;
   width: 100%;
