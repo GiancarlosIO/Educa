@@ -576,6 +576,9 @@ footer.row .container-footer {
     z-index: 10000;
     width: 100%;
   }
+  #menu .menu-mobile .fa-bars {
+    font-size: 2em;
+  }
   #menu .menu-mobile .menu-mobile-bar {
     display: none;
     background: rgba(63,7,247,0.8);
