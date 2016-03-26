@@ -564,9 +564,17 @@ footer.row .container-footer {
 /* RESPONSIVE */
 
 /*Menu*/
+/*Menu*/
+/*Menu*/
+/*Menu*/
+/*Menu*/
 @media only screen and (max-width: 600px) {
   #menu {
     height: auto;
+    background: #FF8330;
+  }
+  #menu .logo {
+    border-bottom: 2px solid #Fff;
   }
   #menu .menu-computer {
     display: none;
@@ -590,6 +598,83 @@ footer.row .container-footer {
     border-bottom: 1px solid #fff;
     text-shadow: none;
     padding: 0.3em 0;
+  }
+
+  /*container-Main*/
+  /*container-Main*/
+  /*container-Main*/
+  /*container-Main*/
+  /*container-Main*/
+  .container-bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    height: 837px;
+  }
+  .container-bg .row {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 144px;
+  }
+  .container-bg .row .item-info {
+    height: 200px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    text-shadow: #000 2px 2px 2px;
+    transition: all 0.5s ease;
+  }
+  .container-bg .row .item-info h1 {
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 0px;
+  }
+  .container-bg .row .item-info p{
+    font-size: 16px;
+    text-align: justify;
+  }
+  .container-bg .row .item-info .icon-info {
+    text-align: center;
+  }
+  .container-bg .row .info-1 {
+    border-radius: 8px;
+    border: 3px solid #A4B521;
+    text-shadow: #000 2px 2px 2px;
+  }
+  .container-bg .row .info-2 {
+    border: 3px solid #A4B521;
+  }
+  .container-bg .row #button-info2{
+    margin: 0px;
+    margin-top: -10px;
+    color: #fff;
+    text-shadow: #000 1px 1px 1px;
+    width: 30%;
+    margin-left: 40%;
+    background: rgba(139,153,28,0.3);
+    height: 35px;
+    border-radius: 1px;
+    border: 2px solid #768218;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+  .container-bg .row .info-3 {
+    padding: 10px 5px;
+    border-radius: 8px;
+    border: 3px solid #A4B521;
+    text-shadow: #000 2px 2px 2px;
+    position: relative;
+  }
+  .container-bg .row .buttons-container {
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    padding: 0px;
   }
 
 }
