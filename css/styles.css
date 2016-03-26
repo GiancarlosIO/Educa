@@ -358,6 +358,12 @@ background: rgba(255,190,42,0.2);
   background: rgba(0,0,0,0.0);
   margin: 0px;
 }
+.container-testvocacional .row.container-items-testvocacional h1 {
+  color: #FFC241;
+  font-size: 2em;
+  margin: 0px;
+  margin-top: 1em;
+}
 .container-testvocacional .row.container-items-testvocacional .title-item-testvocacional .content-title{
   text-align: justify;
   font-size: 17px;
@@ -376,23 +382,154 @@ background: rgba(255,190,42,0.2);
   display: inline-block;
   text-shadow: none;
   padding: 1em;
-  background: #1D97ED;
-  font-size: 18px;
+  background: #FFC26B;
+  font-size: 15px;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 4px;
   color: #000;
   transition: all 0.4s ease;
-  border: none;
+  border: #FFC26B;
 }
 .container-testvocacional .row.container-items-testvocacional .containerbutton a:hover {
-  background: #5BA9FF;
-  box-shadow: 2px 2px 2px rgba(20,160,166,0.5);
-  border: 1px solid #5BA9FF;
+  background: #FFC29B;
 }
 .container-testvocacional .row.container-items-testvocacional .item-testvocacional{
   font-size: 18px;
-  background: rgba(29,149,237,0.9);
-  color: #000;
-  font-family: arial;
+  background: rgba(0,0,0,0.5);
+  color: #FFF7DE;
   text-shadow: none;
+}
+.container-clasesonline {
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  height: 100vh;
+  position: relative;
+}
+.container-clasesonline .row.container-items-clasesonline {
+  margin: 0px;
+  height: 93vh;
+  width: 100%;
+  position: absolute;
+  top: 7vh;
+}
+.container-clasesonline .container-items-clasesonline .title-item-clasesonline {
+  height: 24%;
+  font-size: 1.6em;
+  line-height: 3em;
+  background: rgba(23,36,19,.6);
+  color: #17A46D;
+  text-shadow: 1px 1px #22F2A1;
+}
+.container-clasesonline .container-items-clasesonline .title-item-clasesonline i {
+  color: #ADFFFf;
+  text-shadow: none;
+}
+.container-clasesonline .container-items-clasesonline .item-clasesonline {
+  height: 76%;
+  background: rgba(23,106,109,.7);
+}
+.container-clasesonline .container-items-clasesonline .item-clasesonline .item-concepto p{
+  font-size: 1.2em;
+}
+.container-clasesonline .container-items-clasesonline .item-clasesonline .item-concepto h1{
+  font-size: 2em;
+  color: #22F2A1;
+}
+.container-clasesonline .container-items-clasesonline .item-clasesonline .item-concepto table{
+  width: 50%;
+  margin-left: 25%;
+  border-collapse: collapse;
+}
+.container-clasesonline .container-items-clasesonline .item-clasesonline .item-concepto table thead td{
+  background: #2E50E0;
+  text-shadow: none;
+}
+.container-clasesonline .container-items-clasesonline .item-clasesonline .item-concepto table tbody tr td{
+  border-bottom: 2px solid #1EA3E0;
+}
+.container-clasesonline .container-items-clasesonline .item-clasesonline .item-enter a {
+  display: inline-block;
+  text-shadow: none;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 0.5em 1em;
+  background: #009C4F;
+  border-radius: 4px;
+  transition: all 0.4s ease;
+  border: none;
+}
+.container-clasesonline .container-items-clasesonline .item-clasesonline .item-enter a:hover {
+  background: #00E072;
+  color: #000;
+  border-radius: 8px;
+  border: none;
+}
+.container-contacto {
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  height: 100vh;
+  position: relative;
+}
+.container-contacto .container-contacto-items {
+  width: 100%;
+  height: 93%;
+  top: 7%;
+  position: absolute;
+}
+.container-contacto .container-contacto-items header {
+  line-height: 8.5em;
+  height: 23.5%;
+  background: rgba(149,137,255,0.7);
+}
+.container-contacto .container-contacto-items header h1 {
+  margin: 0;
+  font-size: 3.5em;
+
+}
+.container-contacto .container-contacto-items .container-form {
+  height: 75%;
+  background: rgba(28,255,221,0.2);
+}
+.container-contacto .container-contacto-items .container-form p {
+  font-size: 1.3em;
+  color: black;
+  text-shadow: none;
+}
+.container-contacto .container-contacto-items .container-form .container-input-text input{
+  width: 30%;
+  font-size:1.4em;
+  height: 30px;
+  border: none;
+  outline: 0px;
+  margin-bottom: 1em;
+  border-bottom: 2px solid #225C3F;
+  transition: all 0.3s ease;
+  background: rgba(190,137,255,0.1);
+  color: #fff;
+}
+.container-contacto .container-contacto-items .container-form .container-input-text input::-webkit-input-placeholder{
+  color: #fff;
+}
+.container-contacto .container-contacto-items .container-form .container-input-text input:focus {
+  width: 40%;
+}
+.container-contacto .container-contacto-items .container-form .container-textarea textarea{
+  color: #fff;
+  margin-top: 1em;
+  width: 60%;
+  font-size: 1.3em;
+  height: auto;
+  outline: 0px;
+  border: none;
+  background: none;
+  border-right: 2px solid #225C3F;
+  border-left: 2px solid #225C3F;
+  transition: all 0.3s ease;
+}
+.container-contacto .container-contacto-items .container-form .container-textarea textarea:focus{
+  width: 90%;
+}
+.container-contacto .container-contacto-items .container-form .container-textarea textarea::-webkit-input-placeholder {
+  color: #fff;
 }
