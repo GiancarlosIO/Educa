@@ -561,8 +561,8 @@ footer.row .container-footer {
   background: rgba(255,83,48, 0.1);
 }
 
+/*--------------------------------------------------------------------*/
 /* RESPONSIVE */
-
 /*Menu*/
 /*Menu*/
 /*Menu*/
@@ -662,6 +662,122 @@ footer.row .container-footer {
     font-size: 0.9em;
     cursor: pointer;
     transition: all 0.4s ease;
+  }
+  .container-bg .row .info-3 {
+    padding: 10px 5px;
+    border-radius: 8px;
+    border: 3px solid #A4B521;
+    text-shadow: #000 2px 2px 2px;
+    position: relative;
+  }
+  .container-bg .row .buttons-container {
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    padding: 0px;
+  }
+
+  /*How-work*/
+  /*How-work*/
+  /*How-work*/
+  /*How-work*/
+  /*How-work*/
+  .container-how-work {
+    height: 100vh;
+    position: relative;
+    line-height: 2em;
+  }
+  .container-how-work .row.container-items-how-work {
+    position: absolute;
+    top: 7.5%;
+    height: 93%;
+    background: rgba(173,187,86,0.7);
+    color: #fff;
+    margin: 0px;
+  }
+  .container-how-work .row.container-items-how-work header {
+    font-size: 1.5em;
+  }
+  .container-how-work .row.container-items-how-work header h1{
+    margin: 0px;
+    text-shadow: 2px 2px #000;
+  }
+  .container-how-work .row.container-items-how-work .item-how-work {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    height: 65%;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    transition: all 0.3 ease;
+  }
+  .container-how-work .row.container-items-how-work .item-how-work .item-title-how-work {
+    text-align: center;
+  }
+  .container-how-work .row.container-items-how-work .item-how-work .item-title-how-work h1 i {
+    color: #000;
+    font-size: 2em;
+    transition: all 0.3s;
+  }
+  .container-how-work .row.container-items-how-work .item-how-work .item-content-how-work {
+    text-align: justify;
+  }
+  .container-how-work .row.container-items-how-work div.item-how-work:hover {
+    background: rgba(49,130,9,0.4);
+    box-shadow: 5px 5px 3px rgba(0,0,0,0.4)
+  }
+  .container-how-work .row.container-items-how-work div.item-how-work:hover i {
+    transform:rotate(360deg);
+    color: #F6FB1E;
+    font-size: 2.3em;
+  }
+
+}
+
+/*-----------------------------------------------------------------*/
+@media only screen and (max-width: 450px) {
+  /*menu*/
+  /*menu*/
+  /*menu*/
+  /*menu*/
+  /*menu*/
+  #menu {
+    height: auto;
+    background: #1CFF9D;
+  }
+  /*container-Main*/
+  /*container-Main*/
+  /*container-Main*/
+  /*container-Main*/
+  /*container-Main*/
+  .container-bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    height: 1000px;
+  }
+  .container-bg .row {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 144px;
+  }
+  .container-bg .row .item-info {
+    height: 240px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    text-shadow: #000 2px 2px 2px;
+    transition: all 0.5s ease;
+  }
+  .container-bg .row #button-info2{
+    width: 40%;
+    margin-left: 30%;
   }
   .container-bg .row .info-3 {
     padding: 10px 5px;
