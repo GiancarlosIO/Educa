@@ -549,3 +549,11 @@ background: rgba(255,190,42,0.2);
 .container-contacto .container-contacto-items .container-form .container-buttonsumit input:hover {
   background: #3ACC6B;
 }
+footer.row {
+  margin: 0px;
+  height: 15vh;
+}
+footer.row .container-footer {
+  color: #fff;
+  background: rgba(255,83,48, 0.1);
+}
