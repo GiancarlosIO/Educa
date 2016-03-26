@@ -713,6 +713,49 @@ footer.row .container-footer {
     padding: 5px 5px;
     transition: all 0.3 ease;
   }
+  /*Courses*/
+  /*Courses*/
+  /*Courses*/
+  /*Courses*/
+  .container-courses {
+    height: 1300px;
+  }
+  .container-courses .row.container-items-courses{
+    height: 100%;
+    background: rgba(154,223,229,.5);
+    padding: 5px 5px;
+    top: 0px;
+  }
+  .container-courses .row.container-items-courses header {
+    width: 100%;
+    height: 40px;
+  }
+  .container-courses .row.container-items-courses header h1{
+    text-align: center;
+    width: 100%;
+    font-size: 1.8em;
+    color: #BDB317;
+  }
+  .container-courses .row.container-items-courses .item-courses {
+    padding: 5px;
+    margin-bottom: 0em;
+  }
+  .container-courses .row.container-items-courses .item-courses-week h3 {
+    width: 100%;
+    text-align: center;
+  }
+  .container-courses .row.container-items-courses .item-courses-week {
+    padding: 5px;
+    width: 60%;
+    margin-left: 20%;
+  }
+  .container-courses .row.container-items-courses .item-courses-week .course-week {
+    border: 5px solid rgba(204,197,19,0.1);
+    transform: rotate(0deg);
+    background: rgba(204,197,19,0.6);
+  }
+
+
 }
 
 /*-----------------------------------------------------------------*/
@@ -789,4 +832,17 @@ footer.row .container-footer {
     height: 100%;
   }
 
+  /*Courses*/
+  /*Courses*/
+  /*Courses*/
+  /*Courses*/
+  /*Courses*/
+  .container-courses .row.container-items-courses .item-courses-week .course-week {
+    background: rgba(48,36,105,0.6);
+  }
+  .container-courses .row.container-items-courses .item-courses-week {
+    padding: 5px;
+    width: 100%;
+    margin-left: 0%;
+  }
 }
