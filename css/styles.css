@@ -563,12 +563,12 @@ footer.row .container-footer {
 
 /*--------------------------------------------------------------------*/
 /* RESPONSIVE */
-/*Menu*/
-/*Menu*/
-/*Menu*/
-/*Menu*/
-/*Menu*/
 @media only screen and (max-width: 600px) {
+  /*Menu*/
+  /*Menu*/
+  /*Menu*/
+  /*Menu*/
+  /*Menu*/
   #menu {
     height: auto;
     background: #FF8330;
@@ -683,57 +683,36 @@ footer.row .container-footer {
   /*How-work*/
   /*How-work*/
   .container-how-work {
-    height: 100vh;
+    height: 1000px;
     position: relative;
-    line-height: 2em;
   }
   .container-how-work .row.container-items-how-work {
     position: absolute;
-    top: 7.5%;
-    height: 93%;
-    background: rgba(173,187,86,0.7);
+    top: 0px;
+    background: rgba(14,255,142,0.7);
     color: #fff;
-    margin: 0px;
   }
   .container-how-work .row.container-items-how-work header {
-    font-size: 1.5em;
+    font-size: 1em;
+    width: 100%;
+    height: 57px;
+    line-height: 57px;
   }
   .container-how-work .row.container-items-how-work header h1{
-    margin: 0px;
-    text-shadow: 2px 2px #000;
+    width: 100%;
+    text-align: center;
   }
   .container-how-work .row.container-items-how-work .item-how-work {
     border: 2px solid #fff;
-    border-radius: 10px;
-    height: 65%;
+    border-radius: 0px;
+    height: 260px;
     color: #fff;
     text-shadow: 1px 1px #000;
     text-decoration: none;
     display: block;
-    padding: 20px;
+    padding: 5px 5px;
     transition: all 0.3 ease;
   }
-  .container-how-work .row.container-items-how-work .item-how-work .item-title-how-work {
-    text-align: center;
-  }
-  .container-how-work .row.container-items-how-work .item-how-work .item-title-how-work h1 i {
-    color: #000;
-    font-size: 2em;
-    transition: all 0.3s;
-  }
-  .container-how-work .row.container-items-how-work .item-how-work .item-content-how-work {
-    text-align: justify;
-  }
-  .container-how-work .row.container-items-how-work div.item-how-work:hover {
-    background: rgba(49,130,9,0.4);
-    box-shadow: 5px 5px 3px rgba(0,0,0,0.4)
-  }
-  .container-how-work .row.container-items-how-work div.item-how-work:hover i {
-    transform:rotate(360deg);
-    color: #F6FB1E;
-    font-size: 2.3em;
-  }
-
 }
 
 /*-----------------------------------------------------------------*/
@@ -791,6 +770,17 @@ footer.row .container-footer {
     width: 100%;
     height: 80px;
     padding: 0px;
+  }
+  /*How-work*/
+  /*How-work*/
+  /*How-work*/
+  /*How-work*/
+  /*How-work*/
+  .container-how-work .row.container-items-how-work {
+    position: absolute;
+    top: 0px;
+    background: rgba(155,237,255,0.7);
+    color: #fff;
   }
 
 }
