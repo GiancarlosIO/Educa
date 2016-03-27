@@ -568,9 +568,14 @@ footer.row .container-footer {
   /*Menu*/
   /*Menu*/
   /*Menu*/
+  .menujs.row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
   #menu {
     height: auto;
     background: #FF8330;
+    padding: 0px;
   }
   #menu .logo {
     border-bottom: 2px solid #Fff;
@@ -584,7 +589,7 @@ footer.row .container-footer {
     width: 100%;
   }
   #menu .menu-mobile .fa-bars {
-    font-size: 4em;
+    font-size: 3em;
   }
   #menu .menu-mobile .menu-mobile-bar {
     display: none;
@@ -713,9 +718,7 @@ footer.row .container-footer {
     transition: all 0.3 ease;
   }
   /*Courses*/
-  /*Courses*/
-  /*Courses*/
-  /*Courses*/
+
   .container-courses {
     height: 1300px;
   }
@@ -754,10 +757,6 @@ footer.row .container-footer {
     background: rgba(204,197,19,0.6);
   }
   /*material-Educa*/
-  /*material-Educa*/
-  /*material-Educa*/
-  /*material-Educa*/
-  /*material-Educa*/
   .container-material-educa {
     height: 1000px;
   }
@@ -783,23 +782,94 @@ footer.row .container-footer {
     margin: 0;
     line-height: 182px;
   }
+  /*test-vocacional*/
+  .container-testvocacional {
+    color: #fff;
+    height: 1000px;
+  }
+  .container-testvocacional .row.container-items-testvocacional {
+    height: 100%;
+    top: 0px;
+    background: rgba(28,224,232,0.6);
+    background: rgba(0,0,0,0.0);
+    margin: 0px;
+    padding: 20px;
+  }
+  .container-testvocacional .row.container-items-testvocacional h1 {
+    color: #FFC241;
+    font-size: 1.4em;
+    margin: 0px;
+    margin-top: 0px;
+  }
+  .container-testvocacional .row.container-items-testvocacional .containerbutton {
+    width: 30%;
+    margin-left: 40%;
+  }
+  .container-testvocacional .row.container-items-testvocacional .containerbutton a {
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+  }
+  .container-testvocacional .row.container-items-testvocacional .item-testvocacional{
+    text-align: justify;
+    padding: 0px 10px;
+    font-size: 18px;
+    background: rgba(0,0,0,0.5);
+    color: #FFF7DE;
+    text-shadow: none;
+  }
+  /*clases-online*/
+  .container-clasesonline {
+    height: 660px;
+  }
+  .container-clasesonline .row.container-items-clasesonline {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+  }
+  .container-clasesonline .container-items-clasesonline .title-item-clasesonline {
+    height: 12%;
+    font-size: 1.3em;
+    line-height: 78px;
+    width: 100%;
+  }
+  .container-clasesonline .container-items-clasesonline .title-item-clasesonline h1 {
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+  }
+  .container-clasesonline .container-items-clasesonline .item-clasesonline {
+    height: 88%;
+    padding: 0px 10px;
+  }
+
+  .container-clasesonline .container-items-clasesonline .item-clasesonline .item-concepto h1{
+    font-size: 1.3em;
+    color: #22F2A1;
+    text-align: center;
+  }
+  .container-clasesonline .container-items-clasesonline .item-clasesonline .item-concepto table{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .container-clasesonline .container-items-clasesonline .item-clasesonline .item-enter {
+    width: 100%;
+    height: 80px;
+  }
+  .container-clasesonline .container-items-clasesonline .item-clasesonline .item-enter a {
+    width: 30%;
+    margin-left: 40%;
+  }
+
 }
 
 /*-----------------------------------------------------------------*/
 @media only screen and (max-width: 470px) {
   /*menu*/
-  /*menu*/
-  /*menu*/
-  /*menu*/
-  /*menu*/
   #menu {
     height: auto;
     background: #1CFF9D;
   }
-  /*container-Main*/
-  /*container-Main*/
-  /*container-Main*/
-  /*container-Main*/
   /*container-Main*/
   .container-bg {
     background-position: center;
@@ -842,10 +912,6 @@ footer.row .container-footer {
     padding: 0px;
   }
   /*How-work*/
-  /*How-work*/
-  /*How-work*/
-  /*How-work*/
-  /*How-work*/
   .container-how-work .row.container-items-how-work {
     position: absolute;
     top: 0px;
@@ -858,11 +924,6 @@ footer.row .container-footer {
   .container-how-work .row.container-items-how-work {
     height: 100%;
   }
-
-  /*Courses*/
-  /*Courses*/
-  /*Courses*/
-  /*Courses*/
   /*Courses*/
   .container-courses .row.container-items-courses .item-courses-week .course-week {
     background: rgba(48,36,105,0.6);
@@ -873,10 +934,6 @@ footer.row .container-footer {
     margin-left: 0%;
   }
   /*Material-Educa*/
-  /*Material-Educa*/
-  /*Material-Educa*/
-  /*Material-Educa*/
-  /*Material-Educa*/
   .container-material-educa .row.container-items-educa a{
     text-shadow: none;
     text-decoration: none;
@@ -885,5 +942,20 @@ footer.row .container-footer {
     color: #000;
     border-radius: 0px;
     background: rgba(105,91,107,0.4);
+  }
+  /*container-testvocacional*/
+  .container-testvocacional {
+    height: 1070px;
+  }
+  .container-testvocacional .row.container-items-testvocacional .containerbutton {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 15px;
+  }
+  /*clase-online*/
+  .container-clasesonline .container-items-clasesonline .item-clasesonline .item-enter a {
+    margin-top: 20px;
+    width: 46%;
+    margin-left: 27%;
   }
 }
