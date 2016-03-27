@@ -824,7 +824,7 @@ footer.row .container-footer {
   }
   .container-clasesonline .row.container-items-clasesonline {
     margin: 0px;
-    height: 100%;
+    height: 92%;
     width: 100%;
   }
   .container-clasesonline .container-items-clasesonline .title-item-clasesonline {
@@ -859,6 +859,29 @@ footer.row .container-footer {
   .container-clasesonline .container-items-clasesonline .item-clasesonline .item-enter a {
     width: 30%;
     margin-left: 40%;
+  }
+  /*Contact*/
+  .container-contacto {
+    height: 585px;
+  }
+  .container-contacto .container-contacto-items {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+  }
+  .container-contacto .container-contacto-items header {
+    height: 7%;
+    width: 100%;
+    line-height: 30px;
+  }
+  .container-contacto .container-contacto-items header h1 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .container-contacto .container-contacto-items .container-form {
+    text-align: center;
+    padding: 0px 10px;
+    height: 90%;
   }
 
 }
@@ -958,4 +981,5 @@ footer.row .container-footer {
     width: 46%;
     margin-left: 27%;
   }
+  /**/
 }
