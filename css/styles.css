@@ -883,7 +883,12 @@ footer.row .container-footer {
     padding: 0px 10px;
     height: 90%;
   }
-
+  /*footer*/
+  /*footer*/
+  footer.row .container-footer {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 /*-----------------------------------------------------------------*/
@@ -981,5 +986,5 @@ footer.row .container-footer {
     width: 50%;
     margin-left: 25%;
   }
-  /**/
+
 }
