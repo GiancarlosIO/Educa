@@ -977,9 +977,9 @@ footer.row .container-footer {
   }
   /*clase-online*/
   .container-clasesonline .container-items-clasesonline .item-clasesonline .item-enter a {
-    margin-top: 20px;
-    width: 46%;
-    margin-left: 27%;
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 25%;
   }
   /**/
 }
