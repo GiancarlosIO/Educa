@@ -718,7 +718,9 @@ footer.row .container-footer {
     transition: all 0.3 ease;
   }
   /*Courses*/
-
+  /*Courses*/
+  /*Courses*/
+  /*Courses*/
   .container-courses {
     height: 1300px;
   }
@@ -757,6 +759,9 @@ footer.row .container-footer {
     background: rgba(204,197,19,0.6);
   }
   /*material-Educa*/
+  /*material-Educa*/
+  /*material-Educa*/
+  /*material-Educa*/
   .container-material-educa {
     height: 1000px;
   }
@@ -782,6 +787,9 @@ footer.row .container-footer {
     margin: 0;
     line-height: 182px;
   }
+  /*test-vocacional*/
+  /*test-vocacional*/
+  /*test-vocacional*/
   /*test-vocacional*/
   .container-testvocacional {
     color: #fff;
@@ -861,6 +869,9 @@ footer.row .container-footer {
     margin-left: 40%;
   }
   /*Contact*/
+  /*Contact*/
+  /*Contact*/
+  /*Contact*/
   .container-contacto {
     height: 585px;
   }
@@ -883,6 +894,8 @@ footer.row .container-footer {
     padding: 0px 10px;
     height: 90%;
   }
+  /*footer*/
+  /*footer*/
   /*footer*/
   /*footer*/
   footer.row .container-footer {
@@ -961,7 +974,7 @@ footer.row .container-footer {
     width: 100%;
     margin-left: 0%;
   }
-  /*Material-Educa*/
+  /*Responsive-Material-Educa*/
   .container-material-educa .row.container-items-educa a{
     text-shadow: none;
     text-decoration: none;
@@ -971,7 +984,7 @@ footer.row .container-footer {
     border-radius: 0px;
     background: rgba(105,91,107,0.4);
   }
-  /*container-testvocacional*/
+  /*Responsive-container-testvocacional*/
   .container-testvocacional {
     height: 1070px;
   }
@@ -980,11 +993,10 @@ footer.row .container-footer {
     margin-left: 20%;
     margin-bottom: 15px;
   }
-  /*clase-online*/
+  /*Responsive-clase-online*/
   .container-clasesonline .container-items-clasesonline .item-clasesonline .item-enter a {
     margin-top: 10px;
     width: 50%;
     margin-left: 25%;
   }
-
 }
