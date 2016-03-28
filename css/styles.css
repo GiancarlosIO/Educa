@@ -331,24 +331,24 @@ span.logo-font{
 }
 .container-material-educa .row.container-items-educa a span i {
   font-size: 2.5em;
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
 }
 .container-material-educa .row.container-items-educa a:hover span i {
-  font-size: 5em;
+  font-size: 4em;
   color: #FFF004;
 }
 .container-material-educa .row.container-items-educa a .title-item-material-educa h2 {
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
 }
 .container-material-educa .row.container-items-educa a:hover .title-item-material-educa h2{
   font-size: 1em;
   color: #CABE03;
 }
 .container-material-educa .row.container-items-educa a .title-item-material-educa h3 {
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
 }
 .container-material-educa .row.container-items-educa a:hover .title-item-material-educa h3 {
-  font-size: 1.6em;
+  font-size: 1.3em;
 }
 .container-testvocacional {
   color: #fff;
